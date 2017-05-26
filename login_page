@@ -1,0 +1,14 @@
+<?php
+include "Home.php";
+?>
+<html>
+	<body>
+		<form>
+		<form action ="Home.php" method="post" enctype="multipart/form-data">
+			Username: &nbsp<input type="text" name="namevalue"></br>
+			Password: &nbsp<input type="password" name="password"></br>
+			<input type="submit" name="submit" value="Submit">
+			<input type="submit" name="cancel" value="Cancel"></br>
+		</form>
+	</body>
+</html>
